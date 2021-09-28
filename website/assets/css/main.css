@@ -336,6 +336,31 @@
   right: 40%;
   transform: scale(0.5);
 }
+.adm_emag .zone2 .zone2-group-img .zone2-slider {
+  position: absolute;
+  z-index: 2;
+}
+.adm_emag .zone2 .zone2-group-img .zone2-slider .swiper {
+  width: 100%;
+  height: 100%;
+}
+.adm_emag .zone2 .zone2-group-img .zone2-slider .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.adm_emag .zone2 .zone2-group-img .zone2-slider.slider1 {
+  width: 75%;
+  height: 70%;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .adm_emag .zone2 .fire-stage {
   position: absolute;
   z-index: 2;
