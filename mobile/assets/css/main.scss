@@ -1,0 +1,142 @@
+@import './fonts/fontface';
+
+.adm_emag {
+    position: relative;
+    padding-top: 44px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.4;
+
+    .w980 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .section-detail {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+
+    .text-bold {
+        font-family: 'NotoSerif';
+        font-style: normal;
+        font-weight: bold;
+        text-align: justify;
+    }
+
+    .text-normal {
+        font-family: 'NotoSerif';
+        font-style: normal;
+        font-weight: normal;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .img-fluid {
+        height: auto;
+        max-width: 100%;
+        min-height: auto;
+        display: block;
+    }
+
+    .w980-img {
+        max-width: 100%;
+        position: relative;
+    }
+
+    .section-title {
+        position: relative;
+        padding: 0 15px;
+        margin-bottom: 40px;
+    }
+
+    .banner {
+        position: relative;
+        margin-bottom: 40px;
+
+        .banner-group-img {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 40px;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 2;
+
+                &:first-child {
+                    position: relative;
+                    z-index: 1;
+                }
+            }
+        }
+
+        .sapo {
+            margin-bottom: 50px;
+
+            .text-blue {
+                font-size: 22px;
+                color: #023674;
+            }
+        }
+    }
+
+    .zone1 {
+        position: relative;
+        margin-bottom: 40px;
+
+        .section-detail {
+            margin-bottom: 40px;
+        }
+
+        .zone1-group-img {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 40px;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 2;
+
+                &:first-child {
+                    position: relative;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+
+    .zone2 {
+        position: relative;
+        margin-bottom: 40px;
+
+        .section-detail {
+            margin-bottom: 40px;
+        }
+
+        .zone2-group-img {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 40px;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 2;
+
+                &:first-child {
+                    position: relative;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}
