@@ -491,6 +491,42 @@
           transform: scale(0.5);
 }
 
+.adm_emag .footer {
+  position: relative;
+}
+
+.adm_emag .footer .credit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 50px 0 70px;
+}
+
+.adm_emag .footer .credit .left {
+  border-left: solid 5px #293879;
+}
+
+.adm_emag .footer .credit .left p {
+  margin: 0 !important;
+  font-weight: bold;
+  font-family: inherit;
+  line-height: 26px;
+  padding-left: 20px;
+}
+
+.adm_emag .footer .credit .right {
+  text-align: right;
+}
+
+.adm_emag .footer .credit .right p {
+  margin: 0 !important;
+  font-family: inherit;
+  line-height: 26px;
+}
+
 @-webkit-keyframes fireWord {
   0% {
     -webkit-transform: scale(0);
