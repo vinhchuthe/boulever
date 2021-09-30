@@ -6,7 +6,6 @@ jQuery(document).ready(function ($) {
 
     const swiper1 = new Swiper('#slider1', {
         // Optional parameters
-        lazy: true,
         loop: true,
 
         // If we need pagination
@@ -23,7 +22,6 @@ jQuery(document).ready(function ($) {
 
     const swiper2 = new Swiper('#slider2', {
         // Optional parameters
-        lazy: true,
         loop: true,
 
         // If we need pagination
@@ -40,7 +38,6 @@ jQuery(document).ready(function ($) {
 
     const swiper3 = new Swiper('#slider3', {
         // Optional parameters
-        lazy: true,
         loop: true,
 
         // If we need pagination
