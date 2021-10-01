@@ -256,7 +256,14 @@
 
             .highlight-img {
                 &::before {
-                    animation: eft1 3s ease forwards infinite;
+                    width: 190px;
+                    height: 120px;
+                    top: calc(-1 * 60px);
+                    left: 0;
+                    background-size: cover;
+                    background-image: url('../image/flare.png');
+                    animation: eft1 4s ease forwards infinite;
+                    opacity: 1;
                 }
             }
         }
@@ -268,6 +275,12 @@
 
         .section-detail {
             margin-bottom: 70px;
+
+            .text-normal {
+                span {
+                    font-style: italic;
+                }
+            }
         }
 
         .zone1-group-img {
@@ -398,7 +411,7 @@
 
             .title-text2 {
                 margin-top: 0;
-                font-size: 72px;
+                // font-size: 60px;
             }
 
             img {
@@ -494,6 +507,18 @@
                         right: 40%;
                         transform: scale(0.5);
                     }
+                }
+            }
+
+            &.gr-5 {
+                .leaf1 {
+                    animation: leaf 2s infinite ease-in-out alternate-reverse;
+                    transform-origin: left center;
+                }
+
+                .leaf2 {
+                    animation: leaf 2.1s infinite ease-in-out alternate-reverse;
+                    transform-origin: right bottom;
                 }
             }
 
@@ -676,6 +701,17 @@
 
         .section-title {
             margin-bottom: 70px;
+
+            .title-text2 {
+                font-size: 56px;
+                background: linear-gradient(to right, #851662 0, #d043a4 10%, #851662 11%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation-fill-mode: forwards;
+                -webkit-text-size-adjust: none;
+                background-position: -65px;
+                animation: shine1 2s infinite linear;
+            }
         }
 
         .zone3-group-img {
@@ -899,6 +935,20 @@
     }
 }
 
+@keyframes shine1 {
+    0% {
+        background-position: -65px;
+    }
+
+    40% {
+        background-position: 900px;
+    }
+
+    100% {
+        background-position: 900px;
+    }
+}
+
 @keyframes leaf {
     0% {
         -webkit-transform: rotate(0deg) translate(0px, 0px);
@@ -1091,19 +1141,14 @@
         transform: translate(0, 0);
     }
 
-    25% {
-        opacity: 1;
-        transform: translate(980px, 0);
-    }
-
     50% {
         opacity: 1;
-        transform: translate(980px, 652px);
+        transform: translate(920px, 0);
     }
 
-    75% {
-        opacity: 1;
-        transform: translate(0, 652px);
+    90% {
+        opacity: 0;
+        transform: translate(920px, 0);
     }
 
     100% {
@@ -1129,14 +1174,9 @@
         transform: translate(60vw, 0);
     }
 
-    50% {
-        opacity: 1;
-        transform: translate(60vw, 80vh);
-    }
-
-    75% {
-        opacity: 1;
-        transform: translate(0, 80vh);
+    70% {
+        opacity: 0;
+        transform: translate(60vw, 0);
     }
 
     100% {
