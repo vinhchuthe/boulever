@@ -63,6 +63,10 @@
   text-align: justify;
 }
 
+.adm_emag .text-normal span {
+  font-style: italic;
+}
+
 .adm_emag .img-fluid {
   height: auto;
   max-width: 100%;
