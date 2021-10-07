@@ -86,8 +86,8 @@
   content: "";
   top: 50%;
   left: 50%;
-  width: 70vw;
-  height: 70vw;
+  width: 90vw;
+  height: 90vw;
   position: absolute;
   background-image: url("../image/test1.png");
   background-position: center;
@@ -491,16 +491,6 @@
   position: absolute;
   left: 50%;
   top: 50%;
-}
-
-.adm_emag .zone1 .zone1-group-img .zone1-slider.highlight-img::before {
-  width: 85vw;
-  height: 85vw;
-}
-
-.adm_emag .zone1 .w1100 .highlight-img::before {
-  width: 80vw;
-  height: 80vw;
 }
 
 .adm_emag .zone1 .w1100 .highlight-img img {

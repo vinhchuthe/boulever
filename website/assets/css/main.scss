@@ -59,8 +59,8 @@
             content: "";
             top: 50%;
             left: 50%;
-            width: 70vw;
-            height: 70vw;
+            width: 90vw;
+            height: 90vw;
             position: absolute;
             background-image: url('../image/test1.png');
             background-position: center;
@@ -428,21 +428,21 @@
                     }
                 }
 
-                &.highlight-img {
-                    &::before {
-                        width: 85vw;
-                        height: 85vw;
-                    }
-                }
+                // &.highlight-img {
+                //     &::before {
+                //         width: 85vw;
+                //         height: 85vw;
+                //     }
+                // }
             }
         }
 
         .w1100 {
             .highlight-img {
-                &::before {
-                    width: 80vw;
-                    height: 80vw;
-                }
+                // &::before {
+                //     width: 80vw;
+                //     height: 80vw;
+                // }
 
                 img {
                     position: relative;
