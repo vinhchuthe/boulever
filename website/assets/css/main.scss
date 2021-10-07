@@ -52,7 +52,8 @@
         position: relative;
         background: #ff9f2a;
         overflow: hidden;
-        padding: 7px;
+        // padding: 7px;
+        padding: 4px;
 
         &::before {
             content: "";
