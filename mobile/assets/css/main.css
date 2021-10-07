@@ -1,27 +1,31 @@
 @font-face {
-  font-family: "NotoSerif";
+  font-family: 'NotoSerif';
   src: url("./fonts/NotoSerif-Bold.ttf");
   font-style: normal;
   font-weight: bold;
 }
+
 @font-face {
-  font-family: "NotoSerif";
+  font-family: 'NotoSerif';
   src: url("./fonts/NotoSerif-Regular.ttf");
   font-style: normal;
   font-weight: normal;
 }
+
 @font-face {
-  font-family: "GhiocityandDhisthes";
+  font-family: 'GhiocityandDhisthes';
   src: url("./fonts/GhiocityandDhisthes-Italic.otf");
   font-style: italic;
   font-weight: normal;
 }
+
 @font-face {
-  font-family: "HelveBold";
+  font-family: 'HelveBold';
   src: url("./fonts/HelveBold.ttf");
   font-style: normal;
   font-weight: bold;
 }
+
 .adm_emag {
   position: relative;
   padding-top: 44px;
@@ -30,153 +34,192 @@
   color: #000000;
   line-height: 1.4;
 }
+
 .adm_emag .w980 {
   width: 100%;
   margin: 0 auto;
 }
+
 .adm_emag .section-detail {
   max-width: 660px;
   margin: 0 auto;
   padding: 0 15px;
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
+
 .adm_emag .text-bold {
-  font-family: "NotoSerif";
+  font-family: 'NotoSerif';
   font-style: normal;
   font-weight: bold;
   text-align: justify;
 }
+
 .adm_emag .text-normal {
-  font-family: "NotoSerif";
+  font-family: 'NotoSerif';
   font-style: normal;
   font-weight: normal;
   margin-bottom: 20px;
   text-align: justify;
 }
+
 .adm_emag .text-normal span {
   font-style: italic;
 }
+
 .adm_emag .img-fluid {
   height: auto;
   max-width: 100%;
   min-height: auto;
   display: block;
 }
+
 .adm_emag .w980-img {
   max-width: 100%;
   position: relative;
 }
+
 .adm_emag .section-title {
   position: relative;
   padding: 0 15px;
   margin-bottom: 40px;
 }
+
 .adm_emag .banner {
   position: relative;
   margin-bottom: 40px;
 }
+
 .adm_emag .banner .banner-group-img {
   position: relative;
   display: inline-block;
   margin-bottom: 40px;
 }
+
 .adm_emag .banner .banner-group-img img {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
 }
+
 .adm_emag .banner .banner-group-img img:first-child {
   position: relative;
   z-index: 1;
 }
+
 .adm_emag .banner .sapo {
   margin-bottom: 50px;
 }
+
 .adm_emag .banner .sapo .text-blue {
   font-size: 22px;
   color: #023674;
 }
+
 .adm_emag .zone1 {
   position: relative;
   margin-bottom: 40px;
 }
+
 .adm_emag .zone1 .section-detail {
   margin-bottom: 40px;
 }
+
 .adm_emag .zone1 .zone1-group-img {
   position: relative;
   display: inline-block;
   margin-bottom: 40px;
 }
+
 .adm_emag .zone1 .zone1-group-img img {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
 }
+
 .adm_emag .zone1 .zone1-group-img img:first-child {
   position: relative;
   z-index: 1;
 }
+
 .adm_emag .zone2 {
   position: relative;
   margin-bottom: 40px;
 }
+
 .adm_emag .zone2 .section-detail {
   margin-bottom: 40px;
 }
+
 .adm_emag .zone2 .zone2-group-img {
   position: relative;
   display: inline-block;
   margin-bottom: 40px;
 }
+
 .adm_emag .zone2 .zone2-group-img img {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
 }
+
 .adm_emag .zone2 .zone2-group-img img:first-child {
   position: relative;
   z-index: 1;
 }
+
 .adm_emag .zone2 .zone2-group-img.gr-7 {
   padding: 0 15px;
 }
+
 .adm_emag .zone3 {
   position: relative;
   margin-bottom: 40px;
 }
+
 .adm_emag .zone3 .section-detail {
   margin-bottom: 40px;
 }
+
 .adm_emag .zone3 .zone3-group-img {
   position: relative;
   display: inline-block;
   margin-bottom: 40px;
 }
+
 .adm_emag .zone3 .zone3-group-img img {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
 }
+
 .adm_emag .zone3 .zone3-group-img img:first-child {
   position: relative;
   z-index: 1;
 }
+
 .adm_emag .footer {
   position: relative;
 }
+
 .adm_emag .footer .credit {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 50px 0 70px;
 }
+
 .adm_emag .footer .credit .left {
   border-left: solid 5px #293879;
 }
+
 .adm_emag .footer .credit .left p {
   margin: 0 !important;
   font-weight: bold;
@@ -184,11 +227,14 @@
   line-height: 26px;
   padding-left: 20px;
 }
+
 .adm_emag .footer .credit .right {
   text-align: right;
 }
+
 .adm_emag .footer .credit .right p {
   margin: 0 !important;
   font-family: inherit;
   line-height: 26px;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
